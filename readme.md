@@ -1,0 +1,10 @@
+# tpzzht056 的 技术博客
+### 介绍
+> - 记录并总结以往开发过的零碎玩意儿
+> - 目前只有简易的内容可以参考，之后可能会有实际并不简单的内容
+
+### 内容
+
+[【Cocos Creator】切换状态立即响应组件触发 - 1](./status-response-1.md)
+
+[【Cocos Creator】切换状态立即响应组件触发 - 2](./status-response-2.md)
