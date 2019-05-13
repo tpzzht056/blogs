@@ -107,5 +107,7 @@ function getSquareDistance(a: cc.Vec2, b: cc.Vec2){
 ```
 
     这里的缩放需要注意多点触控的操作判定，和两点距离的变化。
-    
+
     实际代码比这个复杂点，还有其他的边界判断，但基本面就是这些。
+
+[返回主页](./readme.md)
