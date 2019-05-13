@@ -3,7 +3,7 @@
 
 比如，简易的狗动画根据状态来切换
 ```
-@component
+@ccclass
 export default class DogAni{
     @property(cc.Animation)
     dogAni: cc.Animation = null;

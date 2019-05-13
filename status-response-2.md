@@ -6,7 +6,7 @@
 
 原先是这样
 ```
-@component
+@ccclass
 export default class DogAni{
     @property(cc.Animation)
     dogAni: cc.Animation = null;

@@ -8,3 +8,5 @@
 [【Cocos Creator】切换状态立即响应组件触发 - 1](./status-response-1.md)
 
 [【Cocos Creator】切换状态立即响应组件触发 - 2](./status-response-2.md)
+
+[【Cocos Creator】 移动端中简单的移动和缩放（无边界）](./resize-and-move.md)
