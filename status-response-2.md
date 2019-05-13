@@ -7,7 +7,7 @@
 原先是这样
 ```
 @ccclass
-export default class DogAni{
+export default class DogAni extends cc.Component{
     @property(cc.Animation)
     dogAni: cc.Animation = null;
 

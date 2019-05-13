@@ -4,7 +4,7 @@
 比如，简易的狗动画根据状态来切换
 ```
 @ccclass
-export default class DogAni{
+export default class DogAni extends cc.Component{
     @property(cc.Animation)
     dogAni: cc.Animation = null;
 
