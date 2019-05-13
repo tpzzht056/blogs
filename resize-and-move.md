@@ -75,10 +75,10 @@ export default class Resize extends cc.Component{
                 let pt = touchInfo.find(t => t.tid !== e.getID());  //不属于触控点的
                 if(pt.tid !== nt.tid){//两个点id不一样才能因判断距离而进行缩放
                     if(getSquareDistance(pt.location, nt.location) 
-                        > getSquareDistance(nt.location, e.getLocation())){//现距离小于原距离
+                        > getSquareDistance(pt.location, e.getLocation())){//现距离小于原距离
                         this._scale -= Resize.ONCE_SCALE;
                     }else if(getSquareDistance(pt.location, nt.location) 
-                        < getSquareDistance(nt.location, e.getLocation())){
+                        < getSquareDistance(pt.location, e.getLocation())){
                         this._scale += Resize.ONCE_SCALE;
                     }
                     doResize();//修改了scale大小记得resize处理
