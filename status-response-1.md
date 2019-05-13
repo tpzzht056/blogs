@@ -38,3 +38,5 @@ export default class DogAni{
     ... //代码的后面部分
 ```
 将要改动的部分加上前置条件
+
+[返回主页](./readme.md)

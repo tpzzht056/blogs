@@ -104,3 +104,5 @@ export function sortedLastIndex<T extends number>(arr: T[], current: T){
     }
 }
 ```
+
+[返回主页](./readme.md)
