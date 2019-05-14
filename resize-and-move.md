@@ -6,7 +6,7 @@
 > - 这些节点可以是本身节点（注意把需要在范围内），也可以是子节点（可以遍历子节点来绑定事件）。
 > - 所有的移动也就将 原向量+移动向量（每次都很小） 赋给要移动的节点
 
-```
+```typescript
 //本身节点移动
 @ccclass
 export default class Move extends cc.Component{
@@ -46,7 +46,7 @@ export default class NodeMove extends cc.Component{
 > - 我要求两只手同时按住，距离缩小，就进行缩放。同样需要使用TOUCH_MOVE事件，不过需要取两只手的id
 > - 在事件中需要判断两手距离是否更近或更远
 
-```
+```typescript
 @ccclass
 export default class Resize extends cc.Component{
     private _scale = 1;
@@ -109,5 +109,7 @@ function getSquareDistance(a: cc.Vec2, b: cc.Vec2){
     这里的缩放需要注意多点触控的操作判定，和两点距离的变化。
 
     实际代码比这个复杂点，还有其他的边界判断，但基本面就是这些。
+
+> 实际开发中，不可能不确定边界就这么直接移动或者缩放，必然需要确定边界。关于确定边界，可以参考 [边界的确定](./range.md) 这一章
 
 [返回主页](./readme.md)

@@ -5,7 +5,7 @@
 这次是成长值相关的切换，给定不同状态所需成长值，和实际成长值，来切换状态
 
 原先是这样
-```
+```typescript
 @ccclass
 export default class DogAni extends cc.Component{
     @property(cc.Animation)
@@ -31,7 +31,7 @@ export default class DogAni extends cc.Component{
 ```
 
 那么就需要定义一个总成长值和当前成长值
-```
+```typescript
     ... //代码的前面部分
     private _periodGrows: number[] = [];
     private _grow: number = 0;
@@ -55,7 +55,7 @@ export default class DogAni extends cc.Component{
 ```
 
 定义好后，根据阶段成长和当前成长的setter来修改状态
-```
+```typescript
 import _ from 'lodash'; //本代码使用了lodash的_.sortLastIndex(); 通过node去安装
 
     ... //代码的前面部分
@@ -91,7 +91,7 @@ import _ from 'lodash'; //本代码使用了lodash的_.sortLastIndex(); 通过no
 ```
 
 ### 注：如果不使用lodash的方式，也可以自行写一个(此处要求arr是已经升序的数组)入库，然后从该库中调用
-```
+```typescript
 export function sortedLastIndex<T extends number>(arr: T[], current: T){
     for(let i = 0; i <= arr.length; i++){
         //不是已经升序的数组，返回-1，其实也可以不使用这个判断。

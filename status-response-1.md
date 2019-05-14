@@ -2,7 +2,7 @@
 - pochiko 2019-05-13
 
 比如，简易的狗动画根据状态来切换
-```
+```typescript
 @ccclass
 export default class DogAni extends cc.Component{
     @property(cc.Animation)
@@ -27,7 +27,7 @@ export default class DogAni extends cc.Component{
 将原来的状态字段加上getter/setter，然后在setter中调用状态更新函数，去切换动画。
 
 但是，有时候，我并不希望在设置相同状态时立即重新播放动画，那就这样改
-```
+```typescript
     ... //代码的前面部分
     public set status(s: number){
         if(this._status !== s){
