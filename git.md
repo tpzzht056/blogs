@@ -43,3 +43,5 @@
 git pull origin master --allow-unrelated-histories
 ```
 来强制允许历史合并，然后如果冲突就先去解决吧（windows的话总有诸如totoriseGit这类软件来解决冲突的）
+
+[返回主页](./readme.md)
