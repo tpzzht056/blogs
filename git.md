@@ -23,7 +23,7 @@
    git commit
    ```
 4. ```
-   git remote ad origin https://github.com/xxxxxx.git
+   git remote add origin https://github.com/xxxxxx.git
    ```
 5. 可以现在就 
    ```
