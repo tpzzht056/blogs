@@ -1,4 +1,4 @@
-#【nodejs】nodejs生产环境部署初步 (CentOS环境)
+# 【nodejs】nodejs生产环境部署初步 (CentOS环境)
 
     我有个项目是使用nodejs写的，需要部署到生产环境上，这种情况下需要装哪些东西呢？
 
