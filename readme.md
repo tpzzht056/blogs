@@ -14,3 +14,5 @@
 [【Cocos Creator】 移动端中简单的移动和缩放（无边界）](./resize-and-move.md)
 
 [【Cocos Creator】 2d地图边界的确定](./range.md)
+
+[【nodejs】nodejs生产环境部署初步 (CentOS环境)](./nodejs-production/nodejs-production.md)
