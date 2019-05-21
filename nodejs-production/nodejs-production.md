@@ -7,17 +7,20 @@
 ![nodejs下载图](./nodejs-download.png)
     
 1. 通过 https://nodejs.org/zh-cn/download/ 找到上图页面，然后点击 linux 二进制文件64-bit，得到.tar.xz文件。
+   
 2. 将得到的.tar.xz文件上传到ssh服务器上，解压。
 比如 将node-v10.15.3-linux-x64.tar.xz上传到/usr/local/后，则使用
 ```
     cd /usr/local
     tar -xvf node-v10.15.3-linux-x64.tar.xz
 ```
-解压
+来解压
+
 3. 修改解压后文件夹为nodejs
 ```
     mv node-v10.15.3-linux-x64 nodejs
 ```
+
 4. 将node加入软链接(让node命令可以直接执行)
 ```
     ln -s /usr/local/nodejs/bin/node /usr/local/bin/
