@@ -17,7 +17,7 @@
    git init
    ```
 2. ```
-   git add
+   git add .
    ```
 3. ```
    git commit
@@ -27,7 +27,7 @@
    ```
 5. 可以现在就 
    ```
-   get push -u origin master
+   git push -u origin master
    ``` 
    这个master是远程分支；也可以用
    ```
